@@ -55,6 +55,8 @@ input {
 .register{
     color:red;
     text-align:center;
+    text-decoration:none;
+    font-size:15px;
 }
 .account{
     text-align:center;
