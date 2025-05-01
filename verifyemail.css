@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color:orange;
+}
+.container{
+    background-color:white;
+    padding-top:15px;
+    padding-left:30px;
+    padding-bottom:30px;
+    padding-right: 30px;
+}
+.input-section h2{
+    color:orange;
+    margin-bottom:30px;
+}
+.circle-tick{
+    display:flex;
+    justify-content:space-between;
+}
+.circle-tick i,p{
+    margin-right:10px;
+    margin-bottom:15px;
+}
+.resend-link a{
+    text-decoration:none;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.btn{
+    margin-top:20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:orange;
+    border-radius:15px;
+    border:none;
+}
+.btn a{
+    font-size:18px;
+    padding:10px 5px;
+    color:white;
+    text-decoration:none;
+}
+.icon {
+    display:flex;
+    justify-content: right;
+    font-size:20px;
+    margin-bottom:15px;
+}
