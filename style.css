@@ -335,6 +335,10 @@ border-radius: 0;
 .ordernow button{
     margin-top:20px;
 }
+.ordernow button a{
+    text-decoration:none;
+    color:white;
+}
 button:hover{
     background-color:orangered;
 }
