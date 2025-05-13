@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    width: 50%;
+    max-width: 500px;
+    background: white;
+    border: 2px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid orange;
+    border-radius: 5px;
+    outline: none;
+}
+.payment-method h2,
+.price-details h2 {
+    padding:10px 0px;
+    font-size: 20px;
+    color: darkorange;
+}
+
+.order-button a {
+    font-size:18px;
+    display: block;
+    text-align: center;
+    background: darkorange;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.price-details p{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 17px;
+    color:black;
+}
+.order-button a:hover {
+    background: orangered;
+}
